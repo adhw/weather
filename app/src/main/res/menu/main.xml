@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_location" android:title="选择城市"/>
+        <item android:icon="@drawable/ic_multi_cities" android:title="多城市管理"/>
+    </group>
+    <item android:title="就看天气">
+        <menu>
+            <item android:icon="@drawable/ic_menu_set" android:title="设置"/>
+            <item android:icon="@drawable/ic_menu_about" android:title="关于"/>
+        </menu>
+    </item>
+</menu>
